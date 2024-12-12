@@ -10,7 +10,6 @@ import { styled, useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 
-
 function Sidebar() {
     const [open, setOpen] = React.useState(false);
     const theme = useTheme();
